@@ -3,6 +3,163 @@
   padding: 0;
 }
 
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+}
+.cabecera__logo {
+  width: 50px;
+  margin-right: 10px;
+}
+.cabecera__nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+.cabecera__nav a {
+
+  text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+
+}
+.hero__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.hero__body {
+  max-width: 600px;
+}
+.hero__links__imgProfile {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+/* Sobre mí section */
+.sobremi {
+  padding: 2rem;
+  text-align: center;
+}
+.sobremi__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.sobremi__container-img {
+  margin-top: 2rem;
+}
+
+/* Skills section */
+.skills {
+  padding: 2rem;
+
+}
+.skills__items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.skills__item-name {
+  text-align: center;
+  max-width: 150px;
+}
+.skills__item-img {
+  width: 50px;
+  margin-bottom: 0.5rem;
+}
+
+/* Formación section */
+.formacion__courses-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.formacion__courses-list-item {
+  text-align: center;
+}
+.formacion__courses-img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+/* Contacto section */
+.contacto {
+  padding: 2rem;
+  text-align: center;
+
+}
+.infoContacto {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.form__controls {
+  margin-bottom: 1rem;
+}
+.form__input-text {
+  width: 100%;
+  padding: 0.5rem;
+ 
+}
+
+/* Footer */
+.attribution {
+  text-align: center;
+  padding: 1rem;
+
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+  }
+  .hero__text-container {
+    max-width: 50%;
+  }
+  .hero__links__imgProfile {
+    width: 250px;
+  }
+  .skills__items {
+    justify-content: space-between;
+  }
+  .skills__item-name {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cabecera__nav ul {
+    gap: 2rem;
+  }
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  .hero__body {
+    font-size: 1.1rem;
+  }
+}
+</styl
+
 body {
   font-family: "Raleway", sans-serif;
   width: 100vw;
